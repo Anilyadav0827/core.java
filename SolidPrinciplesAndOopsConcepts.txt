@@ -1,0 +1,36 @@
+Solid Principles
+  The SOLID principles are a set of five design principles that help software developers create more maintainable, flexible, and scalable software
+Single Responsibility Principle (SRP):
+A class should have only one reason to change, meaning that it should have only one responsibility.
+open -closed principle(OCP):
+The open–closed principle (OCP) states "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"; that is, such an entity can allow its behaviour to be extended without modifying its source code
+Liskov Substitution principle (LSP):
+Liskov Substitution principle states that objects of a superclass should be replaceable with objects of its subclasses without breaking the application
+Interface Segregation principle(ISP):
+The goal of this principle is to reduce the side effects of using larger interfaces by breaking application interfaces into smaller ones.
+Dependency Inversion Principle (DIP):
+High-level modules should not depend on low-level modules. Both should depend on abstractions.
+Abstractions should not depend on details and details should depend on abstractions.
+This principle promotes the use of interfaces or abstract classes to decouple high-level and low-level components.
+OOPS CONCEPTS
+Inheritance:
+Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object
+example: inheriting properties from parents
+Polymorphism (Many forms):
+Polymorphism allows us to perform a single action in different ways.
+example: sum of two numbers code can write any programming language like c,java pyhton etc,
+Abstarction:
+Abstraction is a process of hiding the implementation details and showing only functionality to the user. Another way, it shows only essential things to the user and hides the internal details
+example: Withdrawing money from ATM machine, Texting SMS
+Encapsulation:
+Encapsulation in Java is a process of wrapping code and data together into a single unit
+example: A capsule which is mixed of several medicines.
+Composition (Has a realtion)
+Tightly  coupled
+A composition in Java between two objects associated with each other exists when there is a strong relationship between one class and another. Other classes cannot exist without the parent class.
+example: 1.Human and heart
+                2.bike and engine 
+Aggregation(Has a realtion):
+loosely coupled
+Aggregation is a special form of Association, which is defined as an unidirectional one way connection between classes or entities
+example: Mobile Phone and Apps
